@@ -1,0 +1,33 @@
+name: waterlearn
+description: "WaterLearn - AI-powered IT learning app"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0-323.0.dev
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Supabase
+  supabase_flutter: ^2.8.4
+
+  # State Management
+  provider: ^6.1.2
+
+  # Markdown rendering for lesson content
+  flutter_markdown: ^0.7.7
+
+  # Fonts
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
